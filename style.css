@@ -186,3 +186,61 @@ body {
     border-radius: 8px;
     color: #fff;
 }
+
+
+/* Comming soon section */
+
+.comming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+#best-offer {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.column-one {
+    max-width: 393px;
+    margin-right: 70px;
+}
+.column-one h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.column-one p {
+    font-size: 20px;
+    line-height: 1.6;
+    opacity: 60%;
+}
+
+.column-two {
+    max-width: 463px;
+    margin-right: 118px;
+}
+.column-two img {
+    border-radius: 50%;
+    border: 12px solid #FF0000;
+    padding: 24px;
+    max-width: 364px;
+    max-height: 364px;
+}
+
+.column-three h3 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.column-three p {
+    font-size: 20px;
+    opacity: 60%;
+    line-height: 1.75;
+}
+
+.column-three img {
+    margin-top: 43px;
+}
+
