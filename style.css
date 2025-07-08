@@ -244,3 +244,48 @@ body {
     margin-top: 43px;
 }
 
+
+/* Sale section */
+
+.sale {
+    margin-bottom: 120px;
+}
+
+.sale-info {
+    text-align: center;
+}
+
+#function {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale-info h3 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+#sale-text {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 500;
+    opacity: 60%;
+}
+
+.sale-img {
+    background-image: url("/assets/images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#fireworks {
+    margin-top: 64px;
+    max-width: 674.82px;
+    max-height: 577.96px;
+    margin-right: 238.35px;
+}
+
+
+#discount {
+    margin-bottom: 280px;
+}
