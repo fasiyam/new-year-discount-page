@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 * {
     margin: 0;
@@ -72,3 +74,36 @@ body {
     font-weight: 900;
     line-height: 1,4;
 }
+
+
+/* Offer section */
+
+.offer {
+    text-align: center;
+}
+
+.offer h2 {
+    font-family: "Inter";
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.offer-content p {
+    font-family: "Inter";
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-content h3 {
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.offer-content img {
+    margin-bottom: 120px;
+}
+
