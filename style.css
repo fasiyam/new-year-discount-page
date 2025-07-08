@@ -107,3 +107,52 @@ body {
     margin-bottom: 120px;
 }
 
+
+/* Join party */
+
+.join-party {
+    height: 600px;
+    background: 
+    linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0))
+    ,url("/assets/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-bottom: 120px;
+    text-align: left;
+    border-radius: 16px;
+}
+
+.joining-info h2 {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    line-height: 1.375;
+    width: 642px;
+    margin-bottom: 24px;
+}
+
+.joining-info p {
+    width: 697px;
+    font-size: 18px;
+    line-height: 1.67;
+    opacity: 80%;
+    margin-bottom: 48px;
+}
+
+.joining-info {
+    margin-left: 126px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.joining-info a button {
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 32px;
+}
