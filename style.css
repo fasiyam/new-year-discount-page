@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather";
+    margin: 50px 140px 0 140px;
+}
+
+
+/* Shared styles */
+
+.primary-color {
+    color: #FF0000;
+}
+
+.secondary-color {
+    color: #fff;
+}
+
+.title-color {
+    color: #070211;
+}
+
+.paragraph-font-color {
+    color: #070211;
+    opacity: 60%;
+}
+
+.font-48 {
+    font-size: 48px;
+}
+
+
+
+/* Header design */
+
+
+.hero-section {
+    height: 90vh;
+    width: 100%;
+
+    background: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), 
+    url("/assets/images/Banner_Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 18px;
+    margin-bottom: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.happy-new-year {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.celebration-title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1,4;
+}
