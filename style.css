@@ -328,3 +328,67 @@ body {
     width: calc((100% - 40px) / 3); 
 }
 
+
+/* Newsletter section */
+
+.newsletter {
+    text-align: center;
+    margin-bottom: 112px;
+}
+
+.newsletter img {
+    margin-bottom: 40px;
+}
+
+.newsletter h3 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.newsletter p {
+    font-size: 20px;
+    line-height: 1.6;
+    opacity: 60%;
+    margin-bottom: 40px;
+}
+
+.newsletter input[type="email"] {
+    width: 438px;
+    height: 72px;
+    border: none;
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
+}
+
+.newsletter-input {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-input input[type="button"] {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background-color: #FF0000;
+    color: #fff;
+}
+
+.newsletter-input input[type="email"]::placeholder {
+    font-size: 18px;
+    color: #070211;
+    opacity: 30%;
+    padding: 25px 30px;
+} 
+
+.newsletter-input input[type="email"]:focus {
+    border: none;
+    outline: none;
+}
+
+
