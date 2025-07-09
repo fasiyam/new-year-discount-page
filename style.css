@@ -392,3 +392,47 @@ body {
 }
 
 
+/* Footer section */
+
+footer {
+    background-color: #000000;
+
+}
+
+/* Address and contact info */
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 98px;
+}
+
+.address {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.67;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.contact {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-right: 135px;
+    margin-top: 40px;
+}
+
+
+/* Social media icon on footer */
+
+.social-media {
+    text-align: center;
+
+}
+
+.social-media img {
+    margin-right: 24px;
+}
